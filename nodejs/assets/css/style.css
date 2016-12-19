@@ -1,0 +1,434 @@
+ header {
+    width: 100%;
+    background-color: #3e5c6e;
+    height: 80px;
+    border-bottom: 1px solid #d5d5d5;
+    vertical-align: middle;
+  }
+  body{
+    background: url(../images/bck.png) 0 center fixed;
+    font-family: Arial;
+    margin: 0px;
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .heading{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 30px;
+    color: #fff;
+    padding-top: 23px;
+  }
+  .video-tools{ 
+    background: url(../images/chatbck.jpg) 0 center fixed;
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    top: 0px;
+    height: 34px;
+    background-color: #B1BBBB;
+  }
+  .video-tools ul{
+    width: 240px;
+    margin:0 auto;
+    margin-top:3px;
+  }
+  .video-tools ul li{
+    background-color: #057905;
+    color: #fff;
+    display: block;
+    float: left;
+    height: 26px;
+    margin-left: 2px;
+    padding-left: 6px;
+    padding-top: 3px;
+    width: 26px;
+    cursor: pointer;
+  }
+  .padding-left8{
+    padding-left: 8px !important;
+  }
+  .top100{
+    top:100px !important;
+    background: url(../images/chatbck.jpg) 0 center fixed;
+    color:#337ab7 !important;
+  }
+  .top100 h3{
+    color:#000 !important;
+  }
+   #layout {
+        position: absolute;
+        top: 34px;
+        left: 20%;
+        right: 20%;
+        bottom: 0px;
+                
+    }
+    .layout-grad{
+        position: absolute;
+        top: 34px;
+        left: 20%;
+        right: 20%;
+        bottom: 0px;
+        background: url(../images/chatbck.jpg) 0 center fixed;
+        opacity: .2;
+    }
+   .chat-wrapr{
+       position: absolute;
+       right: 0px;
+       width: 20%;
+       background: url(../images/chatbck.jpg) 0 center fixed;
+       top: 0px;
+       bottom: 0px;
+   }
+   .part-wrapr{
+       position: absolute;
+       left: : 0px;
+       width: 20%;
+       background: url(../images/chatbck.jpg) 0 center fixed;
+       top: 0px;
+       bottom: 0px;
+   }
+   .part-content{
+     height: 85%;
+     overflow: auto;
+   }
+   .chat-content{
+     height: 85%;
+     overflow: auto;
+   }
+   .chat-header{
+    padding: 5px;
+    border-bottom-color: #ccc;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    font-size: 16px;
+    color: #4a4a4a;
+   }
+   .mychat{
+    padding: 5px;
+    background-color: #866262;
+    color: #fff;
+    font-size: 14px;
+    float: left;
+    margin-left: 10px;
+    margin-top:15px;
+    width: 70%;
+
+   }
+   .send-chat{
+     position: absolute;
+     right: 10px;
+     z-index: 999999999999;
+     bottom: 8px;
+     cursor: pointer;
+   }
+   .mychat .yourname{
+    float: left !important;
+   }
+   .chat-input{
+    width: 100%;
+    height: 35px;
+    border-color: #ccc;
+    border-width: 1px;
+    border-style: solid;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-left: 5px;
+   }
+   .yourchat{
+    padding: 5px;
+    background-color: #F35353;
+    color: #fff;
+    font-size: 14px;
+    float: right;
+    margin-right: 10px;
+    margin-top:14px;
+    width: 70%;
+   }
+   .yourname{
+    font-weight: bold;
+    color: #4a4a4a;
+    font-size: 12px;
+    margin-top: -20px;
+    float: right;
+   }
+   .chatheadic{
+      font-size: 20px;
+   }
+   .green-not {
+      position: absolute;
+      z-index: 9999999;
+      background-color: #1a91ec;
+      left: 20%;
+      right: 20%;
+      height: 0px;
+      opacity: 1;
+      top: 34px;
+  }
+  .not-txt {
+      position: absolute;
+      z-index: 9999999999;
+      color: #fff;
+      top: 34px;
+      left: 20%;
+      right: 20%;
+      text-align: center;
+      vertical-align: middle;
+      height: 35px;
+      font-size: 13px;
+      opacity: 1;
+      padding-top: 8px;
+      display: none;
+      
+  }
+  .active{
+    background-color: red !important;
+  }
+  .user{
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    margin-top: 2px;
+    color: #4a4a4a;
+  }
+  .hideclass{
+    display: none;
+  }
+  .main-parent{
+    position: fixed;
+    top: 5px;
+    width: 100%;
+    bottom: 20px;
+  }
+  .powered{
+    width: 100%;
+    margin: 0 auto;
+    color: #fff;
+    position: fixed;
+    bottom: 1px;
+    font-size: 12px;
+    text-align: center;
+  }
+  .topstrip{
+    position: fixed;
+    top: 0px;
+    background-color: green;
+    width: 100%;
+    height: 5px;
+  }
+  .user ul li {
+    background-color: #057905;
+    border-radius: 26px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-size: 12px;
+    height: 24px;
+    margin-left: 2px;
+    margin-right: 3px !important;
+    padding-left: 6px;
+    padding-right: 0;
+    padding-top: 4px;
+    width: 24px;
+}
+  .user img{
+     margin-top: 4px;
+    float: left;
+    border-radius: 50px;
+  }
+  .options{
+    float: left;
+    height: 100%;
+  }
+  .options span{height: 22px;width: 90%;padding-left: 10px;}
+  .options ul{padding-left: 10px;}
+  .options ul li{display: block;float: left; margin-right: 15px;}
+   @media screen and (max-width:600px){
+      #layout {
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        height: 50%;
+      }
+      .layout-grad{
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        height: 50%;
+      }
+      .chat-wrapr{
+       position: absolute;
+       right: 0px;
+       width: 50%;
+       top: 50%;
+       bottom: 0px;
+      }
+      .part-wrapr{
+       position: absolute;
+       left: 0px;
+       width: 49%;
+       top: 50%;
+       bottom: 0px;
+      }
+      .chat-header{
+        font-size:14px;
+      }
+      #hardware-setup{
+        margin-left: -86px !important;
+      }
+      #testbut{
+        margin-left: 20px !important;
+      }
+
+   }
+   @media screen and (max-width:678px){
+
+
+   }
+
+   /*hardware setup*/
+   .opentok-hardware-setup,
+.opentok-hardware-setup * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: baseline;
+}
+
+.opentok-hardware-setup strong {
+  font-weight: bold;
+}
+
+.opentok-hardware-setup em {
+  font-style: italic;
+}
+
+.opentok-hardware-setup {
+  box-sizing: border-box;
+  border: 0;
+  padding: 30px;
+  width: 380px;
+  height: 340px;
+}
+
+.opentok-hardware-setup-loading {
+  background:  url('data:image/gif;base64,data:image/gif;base64,R0lGODlhDwAMAMQfAOGdCeGhCeKiCtCTCOGeCtGWCc+UCOGiCNScCN+fCt+fCdSZCd+gCc+UCs6VCOCgCeGeCeCgCuKiCM+VCOCdCeKfCs+TCOKfCdCUCNCWCNCUCs+WCs+WCP/htdCWCf///yH/C05FVFNDQVBFMi4wAwEAAAAh+QQFAAAfACwAAAAADwAMAAAFgODzVBcjXcanrl+QaZumIUnDqoLHedbGLZRLBCApAjaFjUczGHgKngEHI8z4lDudx2NVPDwY7pYDW3ImBwrY4om1NdNNhhBZaiY6jpWzs1QgcRhkGRkTFoYWARAaGA4aDjEbGxMZYQEUHG4yehOZGh4RFQQQFxQAAn8XDxQVAgAhACH5BAUKAB8ALAIACQALAAEAAAUGYCeOZBcCACH5BAUKAB8ALAIABwALAAEAAAUGYCeOZBcCACH5BAUKAB8ALAIABQALAAEAAAUGYCeOZBcCACH5BAUKAB8ALAIAAwAFAAEAAAUEYCeKIQAh+QQFCgAfACwCAAMABQABAAAFBmCxedoQAgAh+QQFCgAfACwCAAUACwABAAAFCiDmZZ7HaZuncSEAIfkEBQoAHwAsAgAHAAsAAQAABQmgpk0ex2Wb6YUAIfkEBQoAHwAsAgAJAAsAAQAABQog5mjOpm3blGEhADs=') no-repeat;
+  background-position: 50% 50%;
+}
+
+.opentok-hardware-setup .opentok-hardware-setup-camera {
+  margin-bottom: 10px;
+  padding: 0;
+  overflow: auto;
+  text-align: right;
+}
+
+.opentok-hardware-setup .opentok-hardware-setup-mic {
+  margin-bottom: 10px;
+  padding: 0;
+  overflow: auto;
+  text-align: right;
+}
+
+.opentok-hardware-setup .opentok-hardware-setup-label {
+  color: #000;
+  float: left;
+  width: 90px;
+  padding-right: 10px;
+  padding-top: 1px;
+  line-height: 31px;
+}
+#testbut{
+    background-color: green;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    height: 30px;
+    margin: 0px auto;
+    padding-top: 3px;
+    width: 226px;
+    margin-left: 127px;
+    cursor: pointer;
+}
+.opentok-hardware-setup .opentok-hardware-setup-selector {
+  padding: 0;
+  margin: 0 0 10px 10px;
+  border: 1px solid #9A9A9A;
+  overflow: hidden;
+  background-color: #fff;
+  background: #fff;
+  position: relative;
+}
+
+.opentok-hardware-setup .opentok-hardware-setup-selector:after {
+  top: 50%;
+  right: 5px;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(0, 0, 0, 0);
+  border-top-color: #414141;
+  border-width: 5px;
+  margin-top: -2px;
+  z-index: 100;
+}
+
+.opentok-hardware-setup .opentok-hardware-setup-selector select::-ms-expand {
+   display: none;
+}
+
+.opentok-hardware-setup .opentok-hardware-setup-selector select {
+  padding: 5px 8px;
+  width: 100%;
+  color: #414141;
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+  background-image: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  .opentok-hardware-setup .opentok-hardware-setup-selector select {
+    padding-right:18px
+  }
+}
+
+.opentok-hardware-setup .opentok-hardware-setup-preview {
+  margin-left: 100px;
+  width: 220px;
+}
+
+
+.opentok-hardware-setup .opentok-hardware-setup-camera .opentok-hardware-setup-preview {
+  height: 170px;
+}
+
+.opentok-hardware-setup .opentok-hardware-setup-activity-bg {
+  height: 14px;
+  background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D%22-1%200%2010%2014%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20x%3D%220%22%20y%3D%220%22%20width%3D%2210px%22%20height%3D%2214px%22%3E%3Cg%3E%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%227%22%20height%3D%2214%22%20fill%3D%22%23ffffff%22%20rx%3D%222.415%22%20ry%3D%222.415%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E');
+  /* <svg viewBox="-1 0 10 14" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="10px" height="14px"><g><rect x="0" y="0" width="7" height="14" fill="#ffffff" rx="2.415" ry="2.415"/></g></svg> */
+}
+
+.opentok-hardware-setup .opentok-hardware-setup-activity-fg {
+  height: 14px;
+  background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D%22-1%200%2010%2014%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20x%3D%220%22%20y%3D%220%22%20width%3D%2210px%22%20height%3D%2214px%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22gradient1%22%20x1%3D%2250%25%22%20y1%3D%220%25%22%20x2%3D%2250%25%22%20y2%3D%22100%25%22%3E%3Cstop%20stop-color%3D%22%23acd24c%22%20stop-opacity%3D%221%22%20offset%3D%220%25%22%2F%3E%3Cstop%20stop-color%3D%22%2397d000%22%20stop-opacity%3D%221%22%20offset%3D%22100%25%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Cg%20id%3D%22Layer%25201%22%3E%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%227%22%20height%3D%2214%22%20fill%3D%22url(%23gradient1)%22%20rx%3D%222.415%22%20ry%3D%222.415%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E');
+  /* <svg viewBox="-1 0 10 14" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="10px" height="14px"><defs><linearGradient id="gradient1" x1="50%" y1="0%" x2="50%" y2="100%"><stop stop-color="#acd24c" stop-opacity="1" offset="0%"/><stop stop-color="#97d000" stop-opacity="1" offset="100%"/></linearGradient></defs><g id="Layer%201"><rect x="0" y="0" width="7" height="14" fill="url(#gradient1)" rx="2.415" ry="2.415"/></g></svg> */
+}
